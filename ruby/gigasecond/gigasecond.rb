@@ -1,7 +1,9 @@
 module Gigasecond
   module_function
 
+  GIGASECOND = 1E9
+
   def from(time)
-    time + 10**9
+    time + GIGASECOND
   end
 end
