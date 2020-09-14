@@ -3,7 +3,7 @@ module Gigasecond
 
   GIGASECOND = 1E9
 
-  def from(time)
-    time + GIGASECOND
+  def from(seconds)
+    seconds + GIGASECOND
   end
 end
